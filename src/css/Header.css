@@ -1,0 +1,81 @@
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--navbar-height);
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#navbar nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .logo {
+    font-family: var(--font-secondary);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--light-text-color);
+}
+
+#navbar .logo:hover {
+    color: var(--accent-color);
+}
+
+#navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+#navbar .nav-links li {
+    margin-left: 25px;
+}
+
+#navbar .nav-links a {
+    color: var(--light-text-color);
+    font-weight: 600;
+    padding: 8px 0;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+#navbar .nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--accent-color);
+    transition: width 0.3s ease;
+}
+
+#navbar .nav-links a:hover,
+#navbar .nav-links a.active {
+    color: var(--accent-color);
+}
+
+#navbar .nav-links a:hover::after,
+#navbar .nav-links a.active::after {
+    width: 100%;
+}
+
+.menu-toggle {
+    display: none; /* Oculto en escritorio */
+    background: none;
+    border: none;
+    color: var(--light-text-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+}

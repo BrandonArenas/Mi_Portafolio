@@ -1,0 +1,21 @@
+/* About Me Section */
+#about .about-content {
+    display: flex;
+    flex-wrap: wrap; /* Para responsividad */
+    align-items: center;
+    gap: 40px;
+}
+
+#about .profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--accent-color);
+    box-shadow: var(--shadow);
+}
+
+#about .about-text {
+    flex: 1;
+    min-width: 300px; /* Para que el texto no se comprima demasiado */
+}

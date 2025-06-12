@@ -1,0 +1,52 @@
+{
+    "Projects": [
+        {
+            "name": "Mi Portafolio",
+            "description": "Este proyecto está diseñado para destacar mi experiencia como desarrollador, permitiendo conocer mis conocimientos y explorar los proyectos que he desarrollado. Las tecnoligias utilizadas son: HTML, CSS, JavaScript, JSON, React y Vite",
+            "icon": "fab fa-github",
+            "urlgithub": "https://github.com/BrandonArenas/Mi_Portafolio"
+        },
+        {
+            "name": "Proyectos Freelance",
+            "description": "En este repositorio encontrarás una recopilación de los trabajos freelance que he realizado, abarcando desde aplicaciones de escritorio hasta CRUD que interactua con la base de datos y modelado UML. Las tecnologías utilizadas incluyen C#, Java, Python, SQL y diagramas UML.",
+            "icon": "fab fa-github",
+            "urlgithub": "https://github.com/BrandonArenas/Proyectos-Freelance"
+        },
+        {
+            "name": "Aplicación de escritorio para automatizar traspaso de datos en Excel",
+            "description": "Aplicación de escritorio desarrollada en Python para automatizar el traspaso de datos entre archivos Excel. Utiliza interfaces gráficas con Tkinter y procesamiento de datos con Pandas y OpenPyXL. El proyecto mejora la eficiencia al reducir tareas manuales, facilitando la selección de archivos y ejecutando los procesos de forma automática.",
+            "icon": "fab fa-github",
+            "urlgithub": "https://github.com/BrandonArenas/App_escritorio_traspaso_datos"
+        },
+        {
+            "name": "UNI | EARPFIM",
+            "description": "Se desarrollo una web para gestionar información académica y horarios de clases. La aplicación cuenta con una interfaz dinámica y responsive. Tiene funcionalidades en JavaScript, carga de datos desde archivos JSON en tablas interactivas. Las tecnologías utilizadas fueron HTML, CSS, JavaScript, JSON, Bootstrap y PaginationJS (para la paginacion).",
+            "icon": "fab fa-github",
+            "urlgithub": "https://github.com/BrandonArenas/practicas_uni"
+        },
+        {
+            "name": "Aplicación web barberia",
+            "description": "Se desarrolló un sistema de gestión de reservas de una barbería, permitiendo agendar citas para cortes de cabello. El panel de administración incluye funcionalidades CRUD para gestionar los cortes y las reservas. Las tecnologías utilizadas son: PHP, MySQL, HTML, CSS y Bootstrap.",
+            "icon": "fab fa-github",
+            "urlgithub": "https://github.com/BrandonArenas/app_web_barberia"
+        },
+        {
+            "name": "Aplicación web tienda CRUD",
+            "description": "Se desarrollo un sistema CRUD para gestionar los productos, permitiendo agregar, modificar o eliminar productos de la tienda. Las tecnologías utilizadas son: HTML, CSS, PHP y MySQL.",
+            "icon": "fab fa-github",
+            "urlgithub": "https://github.com/BrandonArenas/CRUD_Tienda"
+        },
+        {
+            "name": "Aplicación de escritorio consultorio médico",
+            "description": "Aplicación de escritorio para la gestión de un consultorio médico. Se puede realizar reservaciones, gestionar su historial y registrar servicios clínicos. Incluye funcionalidades para controlar citas, registrar diagnósticos y tratamientos. Se separo la lógica de negocio, los datos y la presentación. Las tecnologías utilizadas son: Visual Studio, C# y SQL Server.",
+            "icon": "fab fa-github",
+            "urlgithub": "https://github.com/BrandonArenas/App_consultorio"
+        },
+        {
+            "name": "Mas Proyectos",
+            "description": "Puedes ver mi Github con mis proyecto realizados.",
+            "icon": "fab fa-github",
+            "urlgithub": "https://github.com/BrandonArenas?tab=repositories"
+        }
+    ]
+}

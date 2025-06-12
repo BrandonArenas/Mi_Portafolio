@@ -1,0 +1,36 @@
+/* Contact Section */
+#contact .contact-intro {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-button {
+    background-color: var(--secondary-color);
+    color: var(--light-text-color);
+    padding: 12px 25px;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: var(--shadow);
+}
+
+.contact-button i {
+    font-size: 1.2rem;
+}
+
+.contact-button:hover {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    transform: translateY(-3px);
+}

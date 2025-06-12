@@ -1,0 +1,47 @@
+.carousel-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--card-bg-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+/* Contenido del slide */
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 0 50px;
+}
+
+/* Swiper general: da espacio para que la paginación no se pegue al contenido */
+.swiper {
+    padding-bottom: 30px;
+}
+
+/* Paginación Swiper */
+.swiper-pagination {
+    position: relative; /* Evita que se superponga al contenido */
+    margin-top: 10px;
+}
+
+/* Centrar y estilizar bolitas */
+.swiper-pagination-bullet {
+    background-color: #ccc;
+    opacity: 1;
+    transition: background-color 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #007bff;
+}
+
+.project-item i {
+    font-size: 50px;
+}
+
+.swiper-wrapper {
+    align-items: center;
+}

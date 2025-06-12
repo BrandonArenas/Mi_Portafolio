@@ -1,0 +1,12 @@
+{
+  "Skills": [
+    { "name": "HTML5", "icon": "fab fa-html5" },
+    { "name": "CSS3", "icon": "fab fa-css3-alt" },
+    { "name": "JavaScript", "icon": "fab fa-js-square" },
+    { "name": "PHP", "icon": "fab fa-php" },
+    { "name": "SQL", "icon": "fas fa-database" },
+    { "name": "React", "icon": "fab fa-react" },
+    { "name": "Git", "icon": "fab fa-git-alt" },
+    { "name": "Excel", "icon": "fas fa-file-excel" }
+  ]
+}
