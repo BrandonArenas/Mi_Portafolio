@@ -7,6 +7,7 @@
     { "name": "SQL", "icon": "fas fa-database" },
     { "name": "React", "icon": "fab fa-react" },
     { "name": "Git", "icon": "fab fa-git-alt" },
-    { "name": "Excel", "icon": "fas fa-file-excel" }
+    { "name": "ERP", "icon": "fas fa-network-wired" }
+
   ]
 }
